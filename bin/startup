@@ -1,0 +1,6 @@
+#!/bin/sh
+redis-server &
+/home/audiogram/audiogram-dev/bin/server &
+/home/audiogram/audiogram-dev/bin/worker &
+/home/audiogram/audiogram-dev/bin/worker &
+/home/audiogram/audiogram-dev/bin/worker &

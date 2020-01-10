@@ -16,7 +16,7 @@ WORKDIR /home/audiogram
 
 # Clone repo
 RUN git clone https://github.com/johng63/audiogram-dev.git
-WORKDIR /home/audiogram/audiogram
+WORKDIR /home/audiogram/audiogram-dev
 
 # Install dependencies
 RUN npm install
