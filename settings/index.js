@@ -19,6 +19,8 @@
 var path = require("path");
 
 module.exports = {
+	redisHost: "127.0.0.1",
+	worker: true,
   workingDirectory: path.join(__dirname, "..", "tmp"),
   storagePath: path.join(__dirname, "..", "media"),
   fonts: [

@@ -20,3 +20,6 @@ WORKDIR /home/audiogram/audiogram
 
 # Install dependencies
 RUN npm install
+
+# Start Redis server
+redis-server
